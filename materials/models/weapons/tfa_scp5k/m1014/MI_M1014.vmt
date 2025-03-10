@@ -11,12 +11,12 @@
 
     "$phong" "1"
     "$phongboost" "1"
-    "$phongfresnelranges" "[1 0.5 0]"
+    "$phongfresnelranges" "[0.1 0.1 0]"
     "$phongalbedotint" "0"
 
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
     "$rimlight" "1"
-    "$rimlightexponent" "100"
+    "$rimlightexponent" "2"
     "$rimmask" "1"
     "$rimlightboost" "1"
 
@@ -26,9 +26,9 @@
     "$envmaptint" "[0.2 0.2 0.2]"
 
     "$emissiveBlendEnabled" "1"
-	"$emissiveBlendTexture" "dev/null" 
+	"$emissiveBlendTexture" "vgui/white"
 	"$emissiveBlendBaseTexture" "models\weapons\tfa_scp5k\m1014\M1014_Emissive"
-	"$emissiveBlendFlowTexture" "dev/null"
+	"$emissiveBlendFlowTexture" "vgui/white"
 	"$emissiveBlendTint" "[1 1 1]"
 	"$emissiveBlendStrength" "1"
 	"$emissiveBlendScrollVector" "[0.0]"

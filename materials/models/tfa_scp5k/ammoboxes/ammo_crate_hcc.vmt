@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/tfa_scp5k/ammoboxes/ammo_crate_hcc"
+	"$model"			"1"
+	"$surfaceprop"			"metal"
+}

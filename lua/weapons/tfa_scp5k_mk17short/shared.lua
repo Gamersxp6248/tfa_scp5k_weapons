@@ -10,7 +10,7 @@ SWEP.ViewModel			    = "models/weapons/tfa_scp5k/mk17/v_mk17short.mdl"
 SWEP.ViewModelFOV			= 80		         -- This controls how big the viewmodel looks.  Less is more.
 SWEP.ViewModelFlip			= false		         -- Set this to true for CSS models, or false for everything else (with a righthanded viewmodel.)
 SWEP.UseHands               = true               --Use gmod c_arms system.
-SWEP.VMPos                  = Vector(-1.25, 0.5, 0.6)    --The viewmodel positional offset, constantly.  Subtract this from any other modifications to viewmodel position.
+SWEP.VMPos                  = Vector(-1.25, 0.5, 0.6)+Vector(1,-2,-2)    --The viewmodel positional offset, constantly.  Subtract this from any other modifications to viewmodel position.
 SWEP.VMAng                  = Vector(-1, -2, -5)    --The viewmodel angular offset, constantly.   Subtract this from any other modifications to viewmodel angle.
 SWEP.VMPos_Additive         = false              --Set to false for an easier time using VMPos.
 SWEP.CameraAttachmentScale  = 0
@@ -65,7 +65,7 @@ SWEP.InspectAng        = Vector(0, -2, 0)
 SWEP.SubCategory        = "Assault Rifles"
 SWEP.PrintName			= "MK 17 CQBR"		         -- Weapon name (Shown on HUD)
 SWEP.Manufacturer		= "FN Herstal / FN America"
-SWEP.Author				= "Craft_Pig"
+SWEP.Author				= "ɅµЋƵƵ + Craft_Pig"
 SWEP.Contact			= ""
 SWEP.Purpose			= "" 
 SWEP.Instructions		= "" 
@@ -83,7 +83,7 @@ SWEP.Weight				= 40		             -- This controls how "good" the weapon is for 
 -------------------------- Magazine
 SWEP.Primary.ClipSize          = 20 
 SWEP.Primary.DefaultClip       = 140 
-SWEP.Primary.Ammo              = "ar2"        --pistol, 357, smg1, ar2, buckshot, slam, SniperPenetratedRound, AirboatGun.
+SWEP.Primary.Ammo              = "tfa_scp5k_m1_c2"        --pistol, 357, smg1, ar2, buckshot, slam, SniperPenetratedRound, AirboatGun.
 SWEP.Primary.AmmoConsumption   = 1 
 SWEP.DisableChambering         = false 
 
@@ -298,9 +298,161 @@ SWEP.DisableIdleAnimations  = false --Disables idle animations.  Set to false to
 SWEP.ForceEmptyFireOff      = false --Disables empty fire animations.  Set to false to enable them.
 
 
+SWEP.Primary.SilencedSound             = Sound("Weapon_MK18_FireSilenced") -- FOR THE LOVE OF GOD SAVE US!!!
+
+
+SWEP.AllowViewAttachment  = true                               -- Allow the view to sway based on weapon attachment while reloading or drawing, IF THE CLIENT HAS IT ENABLED IN THEIR CONVARS.
+
 SWEP.Attachments = {
-	[3] = { offset = { 0, 0 }, atts = { "att_tfa_scp5ktan" }, order = 3 },
+	[1] = { atts = { "ck_hornet", "ck_hornetb", "ck_bigiron", "ck_twofang", "ck_beltfed", "ck_jakobs" } },
+	--[2] = { atts = { "ins2_si_kobra", "ins2_si_eotech", "ins2_si_rds", "ins2_si_2xrds", "ins2_si_c79", "ins2_si_po4x", "ins2_si_mosin", "ins2_si_mx4" } },
+	[3] = { atts = { "ins2_br_heavy", "ins2_br_supp" } },
+	--[4] = { atts = { "ins2_lb_laser", "ins2_lb_flashlight", "ins2_fg_grip_l", "ins2_fg_bipod_l" } },
+	[4] = { atts = { "ins2_lb_laser", "ins2_lb_flashlight" } },
+	[5] = { atts = { "ins2_fg_grip_l", "ins2_fg_bipod_l" } },
+	--[6] = { atts = { "ins2_ub_laser", "ins2_ub_flashlight", "ins2_fg_grip_ub", "ins2_fg_bipod_ub" } },
+	[6] = { atts = { "ins2_ub_laser", "ins2_ub_flashlight" } },
+	[7] = { atts = { "ins2_fg_grip_ub", "ins2_fg_bipod_ub" } },
+	[8] = { atts = { "ins2_rb_laser", "ins2_rb_flashlight" } },
+	[9] = { atts = { "am_match", "am_magnum" } },
+	--[9] = { atts = { "sg_frag", "sg_slug" } },
+	[10] = { atts = { "att_tfa_scp5ktan" } },
 }
+
+SWEP.AttachmentExclusions   = {
+	["ins2_fg_bipod_ub"] = {"ins2_ub_laser", "ins2_ub_flashlight"}, -- STOP
+	["ins2_fg_bipod_l"] = {"ins2_lb_laser", "ins2_lb_flashlight"}, -- PLEASE
+	["ins2_ub_laser"] = {"ins2_fg_bipod_ub"}, -- WHY IS THIS NOT VICE VERSA?!
+	["ins2_lb_laser"] = {"ins2_fg_bipod_l"}, -- WHY DOES TFA FORCE US TO DEFINE THIS?!
+	["ins2_ub_flashlight"] = {"ins2_fg_bipod_ub"}, -- THE BIPOD BLACKLISTS THESE ATTACHMENTS
+	["ins2_lb_flashlight"] = {"ins2_fg_bipod_l"}, -- BUT DOESN'T AUTOMATICALLY DO IT VICE VERSA!!!
+}
+
+local SightsOffsetThingy = Vector(-0.8315,0,0.9575)
+local SightsOffsetThingyButForAngles = Vector(-0.04,-0.04,0)
+SWEP.IronSightsPos_Kobra  = Vector(-2.375, -0.75, 0.33) + SightsOffsetThingy
+SWEP.IronSightsAng_Kobra  = Vector(0.25, -0.16, 0) + SightsOffsetThingyButForAngles
+
+SWEP.IronSightsPos_EOTech     = Vector(-2.375, -0.75, 0.1) + SightsOffsetThingy
+SWEP.IronSightsAng_EOTech     = Vector(0.25, -0.16, 0) + SightsOffsetThingyButForAngles
+
+SWEP.IronSightsPos_RDS     = Vector(-2.375, -0.75, 0.15) + SightsOffsetThingy
+SWEP.IronSightsAng_RDS     = Vector(0.25, -0.16, 0) + SightsOffsetThingyButForAngles
+
+SWEP.IronSightsPos_2XRDS     = Vector(-2.375, -0.75, 0.1) + SightsOffsetThingy
+SWEP.IronSightsAng_2XRDS     = Vector(0.25, -0.16, 0) + SightsOffsetThingyButForAngles
+SWEP.RTScopeFOV_2XRDS        = 45 -- Why do we have to define this???
+
+SWEP.IronSightsPos_C79     = Vector(-2.375, -0.75, -0.1) + SightsOffsetThingy
+SWEP.IronSightsAng_C79     = Vector(0.25, -0.16, 0) + SightsOffsetThingyButForAngles
+SWEP.RTScopeFOV_C79        = 45
+
+SWEP.IronSightsPos_PO4X     = Vector(-2.325, -0.75, 0.4) + SightsOffsetThingy
+SWEP.IronSightsAng_PO4X     = Vector(0.25, -0.16, 0) + SightsOffsetThingyButForAngles
+SWEP.RTScopeFOV_PO4X        = 45
+
+SWEP.IronSightsPos_Mosin     = Vector(-2.3, 2, 0.6) + SightsOffsetThingy
+SWEP.IronSightsAng_Mosin     = Vector(0.25, -0.16, 0) + SightsOffsetThingyButForAngles
+SWEP.RTScopeFOV_Mosin       = 45
+
+SWEP.IronSightsPos_MX4     = Vector(-2.375, 1.5, -0.1) + SightsOffsetThingy
+SWEP.IronSightsAng_MX4      = Vector(0.25, -0.16, 0) + SightsOffsetThingyButForAngles
+SWEP.RTScopeFOV_MX4        = 45
+
+SWEP.ViewModelBoneMods = {
+	--["b_wpn_muzzle"] = { scale = Vector(1, 1, 1), pos = Vector(0, 0, 0), angle = Angle(0, 0, -90) },
+}
+
+local modrail_s_pos = Vector(0, -1, 2.8)
+local modrail_ua_pos = Vector(0, -10.25, 0.25)
+local modrail_ug_pos = Vector(0, 1.5, -0.1)
+local modrail_la_pos = Vector(-0.9, -10.25, 1.1275)
+local modrail_lg_pos = Vector(-0.1, 1.5, 0)
+local modrail_ra_pos = Vector(0.9, -10.25, 1.1275)
+local modrail_s_bone = "Weapon"
+local modrail_ub_bone = "Weapon"
+
+SWEP.VElements = {
+	--["modrail"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/w_modkit_4.mdl", bone = modrail_s_bone, rel = "", pos = modrail_s_pos, angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["modrail_ua"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/w_modkit_4.mdl", bone = "Weapon", rel = "", pos = modrail_ua_pos, angle = Angle(0, 90, 180), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["modrail_la"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/w_modkit_4.mdl", bone = "Weapon", rel = "", pos = modrail_la_pos, angle = Angle(0, 90, -90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["modrail_ra"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/w_modkit_4.mdl", bone = "Weapon", rel = "", pos = modrail_ra_pos, angle = Angle(0, 90, 90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["sight_kobra"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_optic_kobra.mdl", bone = modrail_s_bone, rel = "", pos = modrail_s_pos + Vector(0, -0.25, 0.2), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["sight_kobra_lens"] = (TFA.INS2 and TFA.INS2.GetHoloSightReticle) and TFA.INS2.GetHoloSightReticle("sight_kobra") or nil,
+	["sight_eotech"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_optic_eotech.mdl", bone = modrail_s_bone, rel = "", pos = modrail_s_pos + Vector(0, -0.25, 0.2), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["sight_eotech_lens"] = (TFA.INS2 and TFA.INS2.GetHoloSightReticle) and TFA.INS2.GetHoloSightReticle("sight_eotech") or nil,
+	["sight_rds"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_optic_aimpoint.mdl", bone = modrail_s_bone, rel = "", pos = modrail_s_pos + Vector(0, 0.25, 0.15), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["sight_rds_lens"] = (TFA.INS2 and TFA.INS2.GetHoloSightReticle) and TFA.INS2.GetHoloSightReticle("sight_rds") or nil,
+	["scope_2xrds"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_optic_aimp2x.mdl", bone = modrail_s_bone, rel = "", pos = modrail_s_pos + Vector(0, 0, 0.2), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["scope_c79"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_optic_elcan_m.mdl", bone = modrail_s_bone, rel = "", pos = modrail_s_pos + Vector(0, -0.25, 0.25), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["scope_po4x"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_optic_po4x24_m.mdl", bone = modrail_s_bone, rel = "", pos = modrail_s_pos + Vector(0, -0.5, 0.225), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["scope_mosin"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_optic_mosin.mdl", bone = modrail_s_bone, rel = "", pos = modrail_s_pos + Vector(0, 1.5, 0.225), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["scope_mx4"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_optic_m40_l.mdl", bone = modrail_s_bone, rel = "", pos = modrail_s_pos + Vector(0, 0.5, 0.225), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["scope_mx4_lens"] = { type = "Model", model = "models/rtcircle.mdl", bone = "Slide", rel = "", pos = Vector(0, -2.25, 0.45), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["suppressor"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_suppressor_sec.mdl", bone = "barrel", rel = "", pos = Vector(0, 2, 0), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["laser"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_laser_rail.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_ua_pos + Vector(0, -2, -0.1), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["laser_beam"] = { type = "Model", model = "models/tfa/lbeam.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_ua_pos + Vector(0, -4, -1.25), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["flashlight"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_flashlight_rail.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_ua_pos + Vector(0, -2, -0.1), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["foregrip"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/w_foregrip_sec1.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_ua_pos + modrail_ug_pos, angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["bipod"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_bipod_m40.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_ua_pos + modrail_ug_pos + Vector(0,0,1), angle = Angle(0, 90, 0), size = Vector(0.8, 0.8, 0.8), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["laser_l"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_laser_rail.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_la_pos + Vector(-0.1, -2, 0), angle = Angle(0, 90, 90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["laser_beam_l"] = { type = "Model", model = "models/tfa/lbeam.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_la_pos + Vector(-1.25, -4, 0), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["flashlight_l"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_flashlight_rail.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_la_pos + Vector(-0.1, -2, 0), angle = Angle(0, 90, 90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["foregrip_l"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/w_foregrip_sec1.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_la_pos + modrail_lg_pos, angle = Angle(0, 90, 90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["bipod_l"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_bipod_m40.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_la_pos + modrail_lg_pos + Vector(1,0,0), angle = Angle(0, 90, 90), size = Vector(0.8, 0.8, 0.8), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false }, -- If you're reading this, I'm sorry.
+	["laser_r"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_laser_rail.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_ra_pos + Vector(0.1, -2, 0), angle = Angle(0, 90, -90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["laser_beam_r"] = { type = "Model", model = "models/tfa/lbeam.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_ra_pos + Vector(1.25, -4, 0), angle = Angle(0, 90, 0), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+	["flashlight_r"] = { type = "Model", model = "models/weapons/tfa_ins2/upgrades/a_flashlight_rail.mdl", bone = modrail_ub_bone, rel = "", pos = modrail_ra_pos + Vector(0.1, -2, 0), angle = Angle(0, 90, -90), size = Vector(1, 1, 1), color = Color(255, 255, 255, 255), surpresslightning = false, material = "", skin = 0, bodygroup = {}, active = false, bonemerge = false },
+}
+
+SWEP.AttachmentTableOverride    = {
+	-- Sights
+	["ins2_si_kobra"] = { ["VElements"] = { ["modrail"] = { ["active"] = true }, }, },
+	["ins2_si_eotech"] = { ["VElements"] = { ["modrail"] = { ["active"] = true }, }, },
+	["ins2_si_rds"] = { ["VElements"] = { ["modrail"] = { ["active"] = true }, }, },
+	["ins2_si_2xrds"] = { ["VElements"] = { ["modrail"] = { ["active"] = true }, }, },
+	["ins2_si_c79"] = { ["VElements"] = { ["modrail"] = { ["active"] = true }, }, },
+	["ins2_si_po4x"] = { ["VElements"] = { ["modrail"] = { ["active"] = true }, }, },
+	["ins2_si_mosin"] = { ["VElements"] = { ["modrail"] = { ["active"] = true }, }, },
+	["ins2_si_mx4"] = { ["VElements"] = { ["modrail"] = { ["active"] = true }, }, },
+	-- Underbarrels
+	["ins2_ub_laser"] = { ["VElements"] = { ["modrail_ua"] = { ["active"] = true }, }, },
+	["ins2_ub_flashlight"] = { ["VElements"] = { ["modrail_ua"] = { ["active"] = true }, }, },
+	["ins2_fg_grip"] = { ["VElements"] = { ["modrail_ua"] = { ["active"] = true }, }, },
+	["ins2_fg_bipod_ub"] = { ["VElements"] = { ["modrail_ua"] = { ["active"] = true }, }, },
+	-- ''Left''barrels
+	["ins2_lb_laser"] = { ["VElements"] = { ["modrail_la"] = { ["active"] = true }, }, },
+	["ins2_lb_flashlight"] = { ["VElements"] = { ["modrail_la"] = { ["active"] = true }, }, },
+	["ins2_fg_grip_l"] = { ["VElements"] = { ["modrail_la"] = { ["active"] = true }, }, },
+	["ins2_fg_bipod_l"] = { ["VElements"] = { ["modrail_la"] = { ["active"] = true }, }, },
+	-- ''Right''barrels
+	["ins2_rb_laser"] = { ["VElements"] = { ["modrail_ra"] = { ["active"] = true }, }, },
+	["ins2_rb_flashlight"] = { ["VElements"] = { ["modrail_ra"] = { ["active"] = true }, }, },
+	["ins2_fg_grip_r"] = { ["VElements"] = { ["modrail_ra"] = { ["active"] = true }, }, }, -- just in case
+	["ins2_fg_bipod_r"] = { ["VElements"] = { ["modrail_ra"] = { ["active"] = true }, }, }, -- just in case
+}
+
+SWEP.AttachmentIconOverride     = { -- overrides icons for attachments
+}
+
+SWEP.RTAttachment_2XRDS           = 2
+SWEP.ScopeDistanceRange_2XRDS     = 50
+SWEP.ScopeDistanceMin_2XRDS       = 50
+
+SWEP.RTAttachment_C79             = 2
+SWEP.ScopeDistanceRange_C79       = 50
+SWEP.ScopeDistanceMin_C79         = 50
+
+-- SWEP.RTAttachment_PO4X         = 2
+-- SWEP.ScopeDistanceRange_PO4X   = 50
+-- SWEP.ScopeDistanceMin_PO4X     = 50
+
+SWEP.MuzzleAttachmentSilenced     = 1
+
+SWEP.LaserSightModAttachment      = 1
+SWEP.LaserSightModAttachmentWorld = 0
+SWEP.LaserDotISMovement           = false
+
 
 DEFINE_BASECLASS(SWEP.Base)
 

@@ -11,14 +11,14 @@
 
     "$phong" "1"
     "$phongboost" "1"
-    "$phongfresnelranges" "[2 0.5 3]"
+    "$phongfresnelranges" "[0.1 0.1 0]"
     "$phongalbedotint" "0"
 
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
     "$rimlight" "1"
-    "$rimlightexponent" "100"
+    "$rimlightexponent" "2"
     "$rimmask" "1"
-    "$rimlightboost" "3"
+    "$rimlightboost" "1"
 
     "$normalmapalphaenvmapmask" "1"
     "$envmapfresnel" "1"

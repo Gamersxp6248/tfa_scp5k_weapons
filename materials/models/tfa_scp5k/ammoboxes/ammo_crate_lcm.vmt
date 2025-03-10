@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/tfa_scp5k/ammoboxes/ammo_crate_lcm"
+	"$model"			"1"
+	"$surfaceprop"			"wood"
+}
+

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models/weapons/tfa_scp5k/cardinsurgency/screen"
+
+	$selfillum 1
+	$selfillumtint "[1 1 1]"
+}

@@ -11,12 +11,12 @@
 
     "$phong" "1"
     "$phongboost" "1"
-    "$phongfresnelranges" "[0.1 0.25 1]"
+    "$phongfresnelranges" "[0.1 0.1 0]"
     "$phongalbedotint" "0"
 
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
     "$rimlight" "1"
-    "$rimlightexponent" "100"
+    "$rimlightexponent" "2"
     "$rimmask" "1"
     "$rimlightboost" "1"
 
@@ -26,9 +26,7 @@
     "$envmaptint" "[0.2 0.2 0.2]"
 
     $translucent 1
-$additive 1
-
-	$bumpmap "models/weapons/scpsl/injector/main_n"
+	$additive 1
 	$envmap "env_cubemap"
 	$envmaptint [0 0 0]
 	$nocull 1

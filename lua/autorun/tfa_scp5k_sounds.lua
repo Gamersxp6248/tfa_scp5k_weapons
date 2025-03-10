@@ -31,7 +31,7 @@
 ------------------------------------------------------------ Chapter_Generic
 sound.Add( {
 	name = "Generic_GearLightWalk",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -50,7 +50,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Generic_GearLightSprint",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -124,7 +124,7 @@ sound.Add( {
 ------------------------------ Chapter_GlockX19
 sound.Add( {
 	name = "Weapon_GLOCK_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -138,7 +138,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_GLOCK_FireSilenced",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 95,
 	pitch = {95,105},
@@ -152,7 +152,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_GLOCK_Equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -162,7 +162,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_GLOCK_Dryfire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -194,7 +194,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_GLOCK_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -204,7 +204,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_GLOCK_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -252,7 +252,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_GLOCK_EmptyMagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -262,7 +262,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_GLOCK_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -293,7 +293,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_GLOCK_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -304,7 +304,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_GLOCK_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -314,7 +314,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_GLOCK_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -324,7 +324,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_GLOCK_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -334,7 +334,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_GLOCK_BoltHit",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -346,7 +346,7 @@ sound.Add( {
 ------------------------------ Chapter_M9A3
 sound.Add( {
 	name = "Weapon_M9A3_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -360,7 +360,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M9A3_FireSilenced",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 95,
 	pitch = {95,105},
@@ -374,7 +374,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M9A3_Equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -384,7 +384,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M9A3_Dryfire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -396,7 +396,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_M9A3_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -406,7 +406,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M9A3_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -438,7 +438,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_M9A3_EmptyMagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -448,7 +448,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M9A3_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -479,7 +479,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_M9A3_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -489,7 +489,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M9A3_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -500,7 +500,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_M9A3_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -510,7 +510,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M9A3_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -520,7 +520,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M9A3_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -532,7 +532,7 @@ sound.Add( {
 ------------------------------ Chapter_P320
 sound.Add( {
 	name = "Weapon_P320_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -548,7 +548,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_P320_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -558,7 +558,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P320_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -601,7 +601,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_P320_EmptyMagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -611,7 +611,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P320_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -632,7 +632,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_P320_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -642,7 +642,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P320_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -653,7 +653,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_P320_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -663,7 +663,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P320_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -673,7 +673,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P320_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -683,7 +683,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P320_BoltHit",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -695,7 +695,7 @@ sound.Add( {
 ------------------------------ Chapter_1911
 sound.Add( {
 	name = "Weapon_1911_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -710,7 +710,7 @@ sound.Add( {
 
 sound.Add( {
 	name = "Weapon_1911_Equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -720,7 +720,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_1911_Unequip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -730,7 +730,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_1911_Dryfire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -752,7 +752,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_1911_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -762,7 +762,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_1911_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -805,7 +805,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_1911_EmptyMagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -815,7 +815,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_1911_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -857,7 +857,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_1911_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -867,7 +867,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_1911_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -878,7 +878,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_1911_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -888,7 +888,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_1911_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -898,7 +898,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_1911_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -910,7 +910,7 @@ sound.Add( {
 ------------------------------ Chapter_FiveSeveN
 sound.Add( {
 	name = "Weapon_FiveSeveN_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -926,7 +926,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_FiveSeveN_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -936,7 +936,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_FiveSeveN_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -968,7 +968,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_FiveSeveN_EmptyMagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -978,7 +978,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_FiveSeveN_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1000,7 +1000,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_FiveSeveN_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1010,7 +1010,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_FiveSeveN_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1021,7 +1021,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_FiveSeveN_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1031,7 +1031,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_FiveSeveN_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1041,7 +1041,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_FiveSeveN_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1051,7 +1051,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_FiveSeveN_BoltHit",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1064,7 +1064,7 @@ sound.Add( {
 ------------------------------ Chapter_ASVAL
 sound.Add( {
 	name = "Weapon_ASVAL_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 115,
 	pitch = {95,105},
@@ -1080,7 +1080,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_ASVAL_Firemode",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1106,7 +1106,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_ASVAL_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1157,7 +1157,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_ASVAL_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1177,7 +1177,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_ASVAL_EmptyBoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1187,7 +1187,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_ASVAL_EmptyMagPouch",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1198,7 +1198,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_ASVAL_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1208,7 +1208,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_ASVAL_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1219,7 +1219,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_ASVAL_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1229,7 +1229,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_ASVAL_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1239,7 +1239,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_ASVAL_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1250,7 +1250,7 @@ sound.Add( {
 ------------------------------ Chapter_MK18
 sound.Add( {
 	name = "Weapon_MK18_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -1264,7 +1264,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK18_FireSilenced",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 95,
 	pitch = {95,105},
@@ -1278,7 +1278,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK18_Equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1299,7 +1299,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK18_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1340,7 +1340,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK18_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1360,7 +1360,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK18_EmptyMagPouch",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1371,7 +1371,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_MK18_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1381,7 +1381,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK18_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1392,7 +1392,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_MK18_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1402,7 +1402,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK18_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1412,7 +1412,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK18_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1424,7 +1424,7 @@ sound.Add( {
 ------------------------------ Chapter_AK74M
 sound.Add( {
 	name = "Weapon_AK74M_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -1438,7 +1438,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK74M_Fireselector",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1465,7 +1465,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK74M_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1534,7 +1534,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK74M_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1554,7 +1554,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK74M_EmptyMagPouchDown",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1568,7 +1568,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK74M_EmptyMagPouchUp",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1579,7 +1579,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_AK74M_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1589,7 +1589,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK74M_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1600,7 +1600,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_AK74M_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1610,7 +1610,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK74M_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1620,7 +1620,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK74M_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1632,7 +1632,7 @@ sound.Add( {
 ------------------------------ Chapter_AK103
 sound.Add( {
 	name = "Weapon_AK103_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -1657,7 +1657,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK103_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1718,7 +1718,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK103_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1738,7 +1738,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK103_EmptyMagPouchUp",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1749,7 +1749,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_AK103_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1759,7 +1759,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK103_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1770,7 +1770,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_AK103_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1780,7 +1780,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK103_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1790,7 +1790,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AK103_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1802,7 +1802,7 @@ sound.Add( {
 ------------------------------ Chapter_TavorX95
 sound.Add( {
 	name = "Weapon_TavorX95_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -1848,7 +1848,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_TavorX95_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1858,7 +1858,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_TavorX95_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1929,7 +1929,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_TavorX95_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1949,7 +1949,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_TavorX95_EmptyMagPouchUp",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1960,7 +1960,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_TavorX95_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1970,7 +1970,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_TavorX95_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1981,7 +1981,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_TavorX95_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -1991,7 +1991,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_TavorX95_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2001,7 +2001,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_TavorX95_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2013,7 +2013,7 @@ sound.Add( {
 ------------------------------ Chapter_AUG
 sound.Add( {
 	name = "Weapon_AUG_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -2039,7 +2039,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AUG_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2049,7 +2049,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AUG_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2080,7 +2080,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AUG_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2110,7 +2110,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AUG_EmptyMagPouchUp",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2121,7 +2121,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_AUG_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2131,7 +2131,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AUG_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2142,7 +2142,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_AUG_InspectRotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2152,7 +2152,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_AUG_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2164,7 +2164,7 @@ sound.Add( {
 ------------------------------ Chapter_MK17
 sound.Add( {
 	name = "Weapon_MK17_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -2178,7 +2178,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK17_Equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -2188,7 +2188,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK17_Unequip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -2199,7 +2199,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_MK17_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2209,7 +2209,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK17_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2239,7 +2239,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK17_HandlingBarrel",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2250,7 +2250,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_MK17_EmptyMagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2260,7 +2260,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK17_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2280,7 +2280,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK17_EmptyBolt",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2291,7 +2291,7 @@ sound.Add( {
 --------- Mag_Check
 sound.Add( {
 	name = "Weapon_MK17_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2301,7 +2301,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK17_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2312,7 +2312,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_MK17_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2322,7 +2322,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK17_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2332,7 +2332,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MK17_Rotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2344,7 +2344,7 @@ sound.Add( {
 ------------------------------ Chapter_SA58
 sound.Add( {
 	name = "Weapon_SA58_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -2359,7 +2359,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_SA58_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2369,7 +2369,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_SA58_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2416,7 +2416,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_SA58_EmptyMagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2426,7 +2426,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_SA58_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2450,7 +2450,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_SA58_EmptyBolt",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2461,7 +2461,7 @@ sound.Add( {
 --------- Mag_Check
 sound.Add( {
 	name = "Weapon_SA58_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2471,7 +2471,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_SA58_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2481,7 +2481,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_SA58_MagCheckThrow",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2492,7 +2492,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_SA58_Rotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2502,7 +2502,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_SA58_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2512,7 +2512,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_SA58_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2526,7 +2526,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_P90_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -2541,7 +2541,7 @@ sound.Add( {
 
 sound.Add( {
 	name = "Weapon_P90_FireMode",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 100,
 	pitch = {95,105},
@@ -2558,7 +2558,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_P90_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2568,7 +2568,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P90_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2592,7 +2592,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_P90_MagOutEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2602,7 +2602,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P90_MagInEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2612,7 +2612,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P90_BoltEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2637,7 +2637,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_P90_Rotate1",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2647,7 +2647,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P90_Rotate2",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2657,7 +2657,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P90_Rotate3",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2667,7 +2667,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P90_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2677,7 +2677,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_P90_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2690,7 +2690,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_MP5_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -2704,7 +2704,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5_FireSilenced",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 100,
 	pitch = {95,105},
@@ -2718,7 +2718,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5_FireTail",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 110,
 	pitch = {95,105},
@@ -2733,7 +2733,7 @@ sound.Add( {
 
 sound.Add( {
 	name = "Weapon_MP5_DryFire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2744,7 +2744,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5_Equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2755,7 +2755,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_MP5_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2765,7 +2765,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2800,7 +2800,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_MP5_MagOutEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2810,7 +2810,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5_MagInEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2820,7 +2820,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5_BoltBackEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2830,7 +2830,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5_BoltForwardEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2854,7 +2854,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_MP5_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2864,7 +2864,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2885,7 +2885,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_MP5_Rotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2895,7 +2895,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2905,7 +2905,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2918,7 +2918,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_MP5SD_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 100,
 	pitch = {95,105},
@@ -2934,7 +2934,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_MP5SD_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2944,7 +2944,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5SD_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2979,7 +2979,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_MP5SD_MagOutEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2989,7 +2989,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5SD_MagInEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -2999,7 +2999,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5SD_BoltBackEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3009,7 +3009,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5SD_BoltForwardEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3022,7 +3022,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_MP5K_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 100,
 	pitch = {95,105},
@@ -3038,7 +3038,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_MP5K_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3048,7 +3048,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5K_MagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3059,7 +3059,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_MP5K_MagOutEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3069,7 +3069,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5K_MagInEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3079,7 +3079,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5K_BoltBackEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3089,7 +3089,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5K_BoltForwardEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3100,7 +3100,7 @@ sound.Add( {
 --------- Mag_Check
 sound.Add( {
 	name = "Weapon_MP5K_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3110,7 +3110,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5K_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3121,7 +3121,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_MP5K_Rotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3131,7 +3131,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5K_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3141,7 +3141,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP5K_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3155,7 +3155,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_UMP_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -3169,7 +3169,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_UMP_FireSilenced",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 100,
 	pitch = {95,105},
@@ -3184,7 +3184,7 @@ sound.Add( {
 
 sound.Add( {
 	name = "Weapon_UMP_DryFire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3194,7 +3194,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_UMP_Equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3204,7 +3204,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_UMP_Unequip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3215,7 +3215,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_UMP_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3258,7 +3258,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_UMP_MagPouchDown",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3272,7 +3272,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_UMP_MagOutEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3282,7 +3282,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_UMP_MagInEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3292,7 +3292,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_UMP_BoltEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3302,7 +3302,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_UMP_EmptyStart",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3313,7 +3313,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_UMP_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3323,7 +3323,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_UMP_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3334,7 +3334,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_UMP_Rotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3344,7 +3344,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_UMP_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3354,7 +3354,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_UMP_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3367,7 +3367,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_MP7_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -3381,7 +3381,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP7_FireSilenced",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 100,
 	pitch = {95,105},
@@ -3396,7 +3396,7 @@ sound.Add( {
 
 sound.Add( {
 	name = "Weapon_MP7_FireSelector",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3411,7 +3411,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_MP7_MagOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3442,7 +3442,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_MP7_MagOutEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3452,7 +3452,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP7_MagInEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3462,7 +3462,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP7_BoltEmpty",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3472,7 +3472,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP7_EmptyMagPouch",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3483,7 +3483,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_MP7_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3493,7 +3493,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP7_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3504,7 +3504,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_MP7_Rotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3514,7 +3514,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP7_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3524,7 +3524,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_MP7_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3538,7 +3538,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_M1014_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -3553,7 +3553,7 @@ sound.Add( {
 
 sound.Add( {
 	name = "Weapon_M1014_Equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3563,7 +3563,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M1014_Unequip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3574,7 +3574,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_M1014_BulletIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3611,7 +3611,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_M1014_EmptyBulletIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3621,7 +3621,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M1014_EmptyBolt",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3631,7 +3631,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M1014_EmptyMagPouch",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3642,7 +3642,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_M1014_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3652,7 +3652,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M1014_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3663,7 +3663,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_M1014_Rotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3673,7 +3673,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M1014_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3683,7 +3683,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_M1014_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3696,7 +3696,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_Mossberg590_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -3711,7 +3711,7 @@ sound.Add( {
 
 sound.Add( {
 	name = "Weapon_Mossberg590_Equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3721,7 +3721,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_Mossberg590_Unequip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3732,7 +3732,7 @@ sound.Add( {
 --------- Reload
 sound.Add( {
 	name = "Weapon_Mossberg590_BulletIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3778,7 +3778,7 @@ sound.Add( {
 --------- Reload_Empty
 sound.Add( {
 	name = "Weapon_Mossberg590_EmptyBulletIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3788,7 +3788,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_Mossberg590_EmptyBoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3798,7 +3798,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_Mossberg590_EmptyBoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3819,7 +3819,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_Mossberg590_MagCheck",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3830,7 +3830,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_Mossberg590_Rotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3840,7 +3840,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_Mossberg590_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3850,7 +3850,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_Mossberg590_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3863,7 +3863,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_m24a3_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -3892,7 +3892,7 @@ sound.Add( {
 
 sound.Add( {
 	name = "Weapon_m24a3_Equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3902,7 +3902,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_m24a3_Unequip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3954,7 +3954,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_m24a3_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3964,7 +3964,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_m24a3_EmptyBolt",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3985,7 +3985,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_m24a3_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -3995,7 +3995,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_m24a3_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4006,7 +4006,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_m24a3_Rotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4016,7 +4016,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_m24a3_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4026,7 +4026,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_m24a3_BoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4039,7 +4039,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_pipe_swing",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 60,
 	pitch = {95,105},
@@ -4052,7 +4052,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_pipe_hit",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 60,
 	pitch = {95,105},
@@ -4066,7 +4066,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_pipe_equip",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 60,
 	pitch = {100,100},
@@ -4079,7 +4079,7 @@ sound.Add( {
 --------- Fire
 sound.Add( {
 	name = "Weapon_LAMG_Fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 120,
 	pitch = {95,105},
@@ -4199,7 +4199,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_EmptyMagIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4209,7 +4209,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_EmptyBoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4219,7 +4219,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_EmptyBoltBackForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4229,7 +4229,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_EmptyBoltForward",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4260,7 +4260,7 @@ sound.Add( {
 --------- MagCheck
 sound.Add( {
 	name = "Weapon_LAMG_MagCheckOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4270,7 +4270,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_MagCheckIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4281,7 +4281,7 @@ sound.Add( {
 --------- Inspect
 sound.Add( {
 	name = "Weapon_LAMG_Rotate",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4291,7 +4291,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_BoltBack",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4301,7 +4301,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_BoltCooking",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4311,7 +4311,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_InspectBeltOut",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4321,7 +4321,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_BeltIn",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4331,7 +4331,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_CoverOpen",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
@@ -4341,7 +4341,7 @@ sound.Add( {
 } )
 sound.Add( {
 	name = "Weapon_LAMG_CoverClose",
-	channel = CHAN_WEAPON,
+	channel = CHAN_AUTO,
 	volume = 1.0,
 	level = 55,
 	pitch = {95,105},
