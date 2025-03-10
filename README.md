@@ -1,4 +1,6 @@
 # tfa_scp5k_weapons
+The description as written by Craft_Pig as of 2023:
+
 A GMod addon that includes SCP: 5K weapons, ported to the TFA Base
 
 Refer to the releases page for builds that have been published on the workshop
